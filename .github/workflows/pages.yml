@@ -23,14 +23,15 @@ jobs:
     steps:
       - name: Scarica il repository
         uses: actions/checkout@v4
+
       - name: Configura GitHub Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
+
       - name: Prepara i file
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
       - name: Pubblica
         id: deployment
         uses: actions/deploy-pages@v4
