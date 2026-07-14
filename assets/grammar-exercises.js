@@ -13,6 +13,14 @@
     return value.trim().toLowerCase().replace(/[.,!?]/g, '').replace(/\s+/g, ' ');
   }
 
+  function withoutAccents(value) {
+    return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
+  function withoutAccentHelpers(value) {
+    return withoutAccents(value).replace(/['’`]/g, '');
+  }
+
   function legacyKey(index) {
     return `${lessonId}-${index}`;
   }
@@ -118,11 +126,17 @@
     const feedback = box.querySelector('.feedback');
     if (!input || !feedback) return;
 
-    const accepted = [box.dataset.answer, ...(box.dataset.alt || '').split('|')].map(norm).filter(Boolean);
+    const rawAccepted = [box.dataset.answer, ...(box.dataset.alt || '').split('|')].filter(Boolean);
+    const accepted = rawAccepted.map(norm).filter(Boolean);
+    const bestAccepted = accepted[0] || '';
     const value = norm(input.value);
+    const accentFreeValue = withoutAccents(value);
+    const accentFreeAccepted = accepted.map(withoutAccents);
+    const helperFreeValue = withoutAccentHelpers(value);
+    const helperFreeBest = withoutAccentHelpers(bestAccepted);
 
     box.dataset.correct = '0';
-    input.classList.remove('correct', 'wrong');
+    input.classList.remove('correct', 'wrong', 'almost');
     feedback.className = 'feedback';
 
     if (!value) {
@@ -131,11 +145,22 @@
       return;
     }
 
-    if (accepted.includes(value)) {
+    if (value === bestAccepted) {
       box.dataset.correct = '1';
       input.classList.add('correct');
       feedback.classList.add('ok');
       feedback.textContent = 'Corretto!';
+    } else if (accepted.includes(value) && helperFreeValue !== helperFreeBest) {
+      box.dataset.correct = '1';
+      input.classList.add('correct');
+      feedback.classList.add('ok');
+      feedback.textContent = 'Corretto!';
+    } else if (accentFreeAccepted.includes(accentFreeValue) || accepted.includes(value)) {
+      const bestAnswer = rawAccepted[accentFreeAccepted.indexOf(accentFreeValue)];
+      box.dataset.correct = '1';
+      input.classList.add('almost');
+      feedback.classList.add('almost');
+      feedback.textContent = `Corretto. Meglio scrivere: ${bestAnswer || rawAccepted[0]}.`;
     } else if (accepted.some((answer) => answer.startsWith(value))) {
       feedback.classList.add('wait');
       feedback.textContent = 'Continua...';

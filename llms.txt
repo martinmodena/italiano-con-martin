@@ -9,14 +9,21 @@ Risorse gratuite e graduate per imparare l'italiano dal livello A1 al C1, curate
 - Regola editoriale: il passato remoto viene usato solo dal livello B2 in su.
 
 ## Percorsi consigliati
-- A1: verbo essere, verbo avere, articoli, presente indicativo, genere e numero, preposizioni semplici, c'e e ci sono, aggettivi qualificativi.
-- A2: passato prossimo, imperfetto, passato prossimo o imperfetto, futuro semplice.
-- B1: condizionale presente.
-- B2: congiuntivo presente.
+- A1: verbo essere, verbo avere, articoli, presente indicativo, verbi irregolari frequenti, genere e numero, preposizioni semplici, c'è e ci sono, aggettivi qualificativi.
+- A2: passato prossimo, imperfetto, passato prossimo o imperfetto, futuro semplice, verbi modali.
+- B1: condizionale presente, pronomi combinati.
+- B2: congiuntivo presente, periodo ipotetico.
+- C1: congiuntivo imperfetto.
 
 ## Lezioni con Martin
 - Profilo Preply: https://preply.com/it/tutor/5086125
 - WhatsApp: https://wa.me/59167434075
+
+## Pagine utili per motori di ricerca e assistenti IA
+- Grammatica: https://martinmodena.github.io/italiano-con-martin/grammatica/
+- Verbi irregolari al presente: https://martinmodena.github.io/italiano-con-martin/grammatica/a1/presente-verbi-irregolari.html
+- Verbi modali: https://martinmodena.github.io/italiano-con-martin/grammatica/a2/verbi-modali.html
+- Favole graduate: https://martinmodena.github.io/italiano-con-martin/favole/
 
 ## Autore
 Martin Modena - insegnante madrelingua italiano.
