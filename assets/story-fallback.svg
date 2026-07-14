@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrazione per una favola italiana</title>
+  <desc id="desc">Un libro aperto con elementi naturali, usato come immagine di riserva per le favole.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ef"/>
+      <stop offset="1" stop-color="#dfece4"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1e3d3"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <circle cx="755" cy="122" r="72" fill="#cf4a2c" opacity=".14"/>
+  <circle cx="160" cy="500" r="110" fill="#16875d" opacity=".12"/>
+  <g transform="translate(210 170)">
+    <path d="M40 54c96-38 178-18 239 21v309c-72-42-151-55-239-18z" fill="url(#book)" stroke="#d9cabb" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M520 54c-96-38-178-18-239 21v309c72-42 151-55 239-18z" fill="url(#book)" stroke="#d9cabb" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M280 75v309" stroke="#cf4a2c" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+    <path d="M88 132h118M88 178h142M88 224h108M354 132h128M354 178h104M354 224h132" stroke="#61707c" stroke-width="10" stroke-linecap="round" opacity=".42"/>
+  </g>
+  <g fill="none" stroke="#16875d" stroke-width="12" stroke-linecap="round">
+    <path d="M190 145c-26-44-62-61-108-51"/>
+    <path d="M198 143c-8-50 10-88 54-113"/>
+    <path d="M715 454c34-35 73-43 117-24"/>
+    <path d="M710 452c14-47 49-75 98-84"/>
+  </g>
+  <text x="450" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="700" fill="#17212b">Favola graduata</text>
+</svg>
