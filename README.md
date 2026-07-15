@@ -13,7 +13,7 @@ Sito statico per l'insegnamento dell'italiano, pronto per GitHub Pages.
 ## Pubblicazione
 Il workflow `.github/workflows/pages.yml` pubblica automaticamente il sito con GitHub Pages.
 
-URL previsto: `https://martinmodena.github.io/italiano-con-martin/`
+URL previsto: `https://italianoconmartin.com/`
 
 ## Regola linguistica
 Il passato remoto non viene usato nei livelli A1, A2 e B1. Compare soltanto dal livello B2.

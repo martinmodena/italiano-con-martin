@@ -20,10 +20,10 @@ Risorse gratuite e graduate per imparare l'italiano dal livello A1 al C1, curate
 - WhatsApp: https://wa.me/59167434075
 
 ## Pagine utili per motori di ricerca e assistenti IA
-- Grammatica: https://martinmodena.github.io/italiano-con-martin/grammatica/
-- Verbi irregolari al presente: https://martinmodena.github.io/italiano-con-martin/grammatica/a1/presente-verbi-irregolari.html
-- Verbi modali: https://martinmodena.github.io/italiano-con-martin/grammatica/a2/verbi-modali.html
-- Favole graduate: https://martinmodena.github.io/italiano-con-martin/favole/
+- Grammatica: https://italianoconmartin.com/grammatica/
+- Verbi irregolari al presente: https://italianoconmartin.com/grammatica/a1/presente-verbi-irregolari.html
+- Verbi modali: https://italianoconmartin.com/grammatica/a2/verbi-modali.html
+- Favole graduate: https://italianoconmartin.com/favole/
 
 ## Autore
 Martin Modena - insegnante madrelingua italiano.

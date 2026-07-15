@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://martinmodena.github.io/italiano-con-martin/sitemap.xml
+Sitemap: https://italianoconmartin.com/sitemap.xml
