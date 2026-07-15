@@ -1,29 +1,39 @@
 # Italiano con Martin
 
-Risorse gratuite e graduate per imparare l'italiano dal livello A1 al C1, curate da Martin Modena, insegnante di italiano online per stranieri.
+> Risorse gratuite e graduate per imparare l'italiano dal livello A1 al C1, curate da Martin Modena, insegnante madrelingua di italiano per stranieri.
+
+## Panoramica
+
+Italiano con Martin offre lezioni online individuali, grammatica interattiva e favole graduate. I materiali aiutano a comprendere le regole e a trasformarle in conversazione reale.
 
 ## Contenuti principali
-- Grammatica italiana con lezioni interattive, spiegazioni semplici, esempi reali, errori comuni ed esercizi con feedback immediato.
+
+- Grammatica italiana con spiegazioni semplici, esempi reali, errori comuni ed esercizi con feedback immediato.
 - Favole e storie adattate ai livelli QCER A1, A2, B1, B2 e C1.
 - Vocabolario, comprensione del testo e domande di conversazione.
-- Regola editoriale: il passato remoto viene usato solo dal livello B2 in su.
+- Il passato remoto viene usato nelle favole dal livello B2 in su.
 
 ## Percorsi consigliati
+
 - A1: verbo essere, verbo avere, articoli, presente indicativo, verbi irregolari frequenti, genere e numero, preposizioni semplici, c'è e ci sono, aggettivi qualificativi.
 - A2: passato prossimo, imperfetto, passato prossimo o imperfetto, futuro semplice, verbi modali.
 - B1: condizionale presente, pronomi combinati.
 - B2: congiuntivo presente, periodo ipotetico.
 - C1: congiuntivo imperfetto.
 
-## Lezioni con Martin
-- Profilo Preply: https://preply.com/it/tutor/5086125
-- WhatsApp: https://wa.me/59167434075
+## Pagine principali
 
-## Pagine utili per motori di ricerca e assistenti IA
-- Grammatica: https://italianoconmartin.com/grammatica/
-- Verbi irregolari al presente: https://italianoconmartin.com/grammatica/a1/presente-verbi-irregolari.html
-- Verbi modali: https://italianoconmartin.com/grammatica/a2/verbi-modali.html
-- Favole graduate: https://italianoconmartin.com/favole/
+- [Home - Italiano con Martin](https://italianoconmartin.com/): lezioni online di italiano per stranieri.
+- [Grammatica italiana](https://italianoconmartin.com/grammatica/): schede ed esercizi dal livello A1 al C1.
+- [Verbi irregolari al presente](https://italianoconmartin.com/grammatica/a1/presente-verbi-irregolari.html): forme e usi dei verbi più frequenti.
+- [Verbi modali](https://italianoconmartin.com/grammatica/a2/verbi-modali.html): potere, dovere e volere.
+- [Favole graduate](https://italianoconmartin.com/favole/): racconti completi, adattati a più livelli.
+
+## Lezioni con Martin
+
+- [Profilo Preply di Martin](https://preply.com/it/tutor/5086125)
+- [Scrivi a Martin su WhatsApp](https://wa.me/59167434075)
 
 ## Autore
-Martin Modena - insegnante madrelingua italiano.
+
+Martin Modena è un insegnante madrelingua italiano specializzato in lezioni online di italiano per stranieri.
