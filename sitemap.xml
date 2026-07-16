@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://italianoconmartin.com/</loc><lastmod>2026-07-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://italianoconmartin.com/favole/</loc><lastmod>2026-07-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://italianoconmartin.com/favole/</loc><lastmod>2026-07-16</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://italianoconmartin.com/grammatica/</loc><lastmod>2026-07-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://italianoconmartin.com/grammatica/a1/verbo-essere.html</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://italianoconmartin.com/grammatica/a1/verbo-avere.html</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -27,6 +27,8 @@
   <url><loc>https://italianoconmartin.com/favole/il-leone-e-il-topo.html</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://italianoconmartin.com/favole/la-volpe-e-luva.html</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://italianoconmartin.com/favole/la-cicala-e-la-formica.html</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://italianoconmartin.com/favole/il-topo-di-citta-e-il-topo-di-campagna.html</loc><lastmod>2026-07-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://italianoconmartin.com/favole/il-mugnaio-suo-figlio-e-lasino.html</loc><lastmod>2026-07-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://italianoconmartin.com/favole/la-lepre-e-la-tartaruga.html</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://italianoconmartin.com/favole/il-pastorello-bugiardo.html</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
