@@ -11,6 +11,82 @@
     </image:image>
   </url>
   <url>
+    <loc>https://italianoconmartin.com/letture/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://italianoconmartin.com/letture/tecniche-di-memoria.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-tecniche-memoria.webp</image:loc>
+      <image:caption>Schede e mappe mentali per tecniche di memoria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://italianoconmartin.com/letture/il-sonar-del-delfino.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-sonar-delfino.webp</image:loc>
+      <image:caption>Un delfino usa onde sonore sott acqua</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://italianoconmartin.com/letture/come-funziona-la-memoria-umana.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-memoria-umana.webp</image:loc>
+      <image:caption>Un cervello con connessioni luminose e ricordi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://italianoconmartin.com/letture/api-linguaggio-e-caratteristiche.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-api-linguaggio.webp</image:loc>
+      <image:caption>Api su un favo comunicano in un prato</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://italianoconmartin.com/letture/futuro-intelligenza-artificiale.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-futuro-intelligenza-artificiale.webp</image:loc>
+      <image:caption>Intelligenza artificiale tra opportunita e rischi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://italianoconmartin.com/letture/come-preparare-una-pizza.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-preparare-pizza.webp</image:loc>
+      <image:caption>Ingredienti e impasto per preparare una pizza</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://italianoconmartin.com/letture/storia-del-caffe-in-italia.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-storia-caffe-italia.webp</image:loc>
+      <image:caption>Moka, tazzine e caffe nella storia italiana</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://italianoconmartin.com/favole/</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
