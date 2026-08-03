@@ -4,6 +4,7 @@ Sito statico per l'insegnamento dell'italiano, pronto per GitHub Pages.
 
 ## Contenuti iniziali
 - Home orientata a studenti e potenziali nuovi allievi.
+- Homepage multilingua per italiano, inglese, spagnolo, francese, ceco, polacco, turco, tedesco e giapponese.
 - Banner Preply e WhatsApp.
 - Favola **Il cane e l'osso** in cinque livelli: A1, A2, B1, B2 e C1.
 - Vocabolario e domande di comprensione/conversazione.
@@ -17,3 +18,6 @@ URL previsto: `https://italianoconmartin.com/`
 
 ## Regola linguistica
 Il passato remoto non viene usato nei livelli A1, A2 e B1. Compare soltanto dal livello B2.
+
+## Appunti di progetto
+Le decisioni strategiche e gli appunti da non perdere sono raccolti in `DECISIONI_SITO.md`.
