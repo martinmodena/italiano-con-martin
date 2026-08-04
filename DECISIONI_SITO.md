@@ -78,3 +78,10 @@ Quando emerge una decisione importante in una conversazione, aggiungerla qui con
 - file o sezione del sito coinvolta.
 
 Regola operativa: ogni indicazione contenuta in un prompt che modifica il sito, la sua struttura, i contenuti, la lingua o la SEO deve essere registrata in questo file nella stessa sessione di lavoro.
+
+### Decisione 2026-08-04: il dominio personalizzato e sempre obbligatorio
+
+- Il sito deve funzionare sia sull'URL GitHub Pages sia su `https://italianoconmartin.com/`.
+- Ogni pubblicazione deve verificare almeno la homepage e una pagina localizzata, per esempio `/es/`, su entrambi gli indirizzi.
+- Il dominio personalizzato e parte obbligatoria di ogni verifica SEO, navigazione, sitemap e deploy.
+- Il DNS punta correttamente a GitHub Pages, ma il dominio risulta ancora associato al vecchio repository `italiano-con-martin-astro`. Prima del prossimo deploy sul dominio va rimossa quell'associazione e va configurato `italianoconmartin.com` nelle impostazioni Pages del repository `italiano-con-martin`.
