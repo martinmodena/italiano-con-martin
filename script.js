@@ -4,16 +4,11 @@
   const navWrap = header?.querySelector('.nav-wrap');
   const year = document.querySelector('#year');
   const languageNames = {
-    it: 'Italiano',
-    en: 'English',
-    es: 'Español',
-    fr: 'Français',
-    cs: 'Čeština',
-    pl: 'Polski',
-    tr: 'Türkçe',
-    de: 'Deutsch',
-    ja: '日本語'
+    it: 'Italiano', en: 'English', es: 'Español', fr: 'Français',
+    cs: 'Čeština', pl: 'Polski', tr: 'Türkçe', de: 'Deutsch', ja: '日本語'
   };
+  const languageFlags = { it: '🇮🇹', en: '🇬🇧', es: '🇪🇸', fr: '🇫🇷', cs: '🇨🇿', pl: '🇵🇱', tr: '🇹🇷', de: '🇩🇪', ja: '🇯🇵' };
+  const languagePaths = { it: '', en: 'en', es: 'es', fr: 'fr', cs: 'cs', pl: 'pl', tr: 'tr', de: 'de', ja: 'ja' };
   const homeTranslations = {
     it: {
       title: 'Italiano con Martin | Lezioni online individuali a 10€',
@@ -445,7 +440,7 @@
 
   if (!nav.id) nav.id = 'main-nav';
 
-  const preferredLanguage = getPreferredLanguage();
+  const preferredLanguage = getPageLanguage();
   const languageControl = createLanguageControl(preferredLanguage);
   navWrap.insertBefore(languageControl, nav);
 
@@ -478,12 +473,10 @@
     link.addEventListener('click', closeMenu);
   });
 
-  languageControl.querySelector('select').addEventListener('change', (event) => {
-    const language = event.target.value;
-    saveLanguage(language);
-    applyLanguage(language);
+  languageControl.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+    saveLanguage(link.dataset.language);
     closeMenu();
-  });
+  }));
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') closeMenu();
@@ -516,28 +509,50 @@
   window.setTimeout(scrollToCurrentHash, 0);
 
   function createLanguageControl(language) {
-    const label = document.createElement('label');
+    const label = document.createElement('details');
     label.className = 'language-switcher';
-    label.innerHTML = '<span></span><select></select>';
-
-    const select = label.querySelector('select');
+    label.innerHTML = `<summary><span class="language-flag" aria-hidden="true"></span><span class="language-current"></span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options"></div>`;
+    label.querySelector('.language-flag').textContent = languageFlags[language];
+    label.querySelector('.language-current').textContent = languageNames[language];
+    const options = label.querySelector('.language-options');
     Object.entries(languageNames).forEach(([code, name]) => {
-      const option = document.createElement('option');
-      option.value = code;
-      option.textContent = name;
-      option.selected = code === language;
-      select.appendChild(option);
+      const option = document.createElement('a');
+      option.href = getLanguageUrl(code);
+      option.dataset.language = code;
+      option.innerHTML = `<span aria-hidden="true">${languageFlags[code]}</span><span>${name}</span>`;
+      if (code === language) option.setAttribute('aria-current', 'page');
+      options.appendChild(option);
     });
 
     return label;
   }
 
-  function getPreferredLanguage() {
-    const savedLanguage = loadLanguage();
-    if (homeTranslations[savedLanguage]) return savedLanguage;
+  function getPageLanguage() {
+    const firstSegment = location.pathname.split('/').filter(Boolean)[0];
+    return languagePaths[firstSegment] === undefined ? 'it' : firstSegment;
+  }
 
-    const browserLanguage = (navigator.language || 'it').slice(0, 2);
-    return homeTranslations[browserLanguage] ? browserLanguage : 'it';
+  function getPageKind() {
+    const path = location.pathname;
+    if (path.includes('/letture/') || path.endsWith('/letture') || path.includes('/readings/') || path.endsWith('/readings')) return 'readings';
+    if (path.includes('/grammatica/') || path.endsWith('/grammatica') || path.includes('/grammar/') || path.endsWith('/grammar')) return 'grammar';
+    if (path.includes('/favole/') || path.endsWith('/favole') || path.includes('/stories/') || path.endsWith('/stories')) return 'stories';
+    return 'home';
+  }
+
+  function getLanguageUrl(language) {
+    const kind = getPageKind();
+    if (language === 'it') {
+      if (kind === 'readings') return '/letture/';
+      if (kind === 'grammar') return '/grammatica/';
+      if (kind === 'stories') return '/favole/';
+      return '/';
+    }
+    const prefix = `/${language}/`;
+    if (kind === 'readings') return `${prefix}readings/`;
+    if (kind === 'grammar') return `${prefix}grammar/`;
+    if (kind === 'stories') return `${prefix}stories/`;
+    return prefix;
   }
 
   function loadLanguage() {
@@ -563,11 +578,11 @@
 
   function applyLanguage(language) {
     const t = homeTranslations[language] || homeTranslations.it;
-    document.documentElement.lang = language;
-    document.querySelector('.language-switcher span').textContent = t.languageLabel;
-    document.querySelector('.language-switcher select').setAttribute('aria-label', t.languageLabel);
-    translateNavigation(t);
-    translateHomepage(t);
+    if (getPageLanguage() === 'it' && getPageKind() === 'home') {
+      document.documentElement.lang = language;
+      translateNavigation(t);
+      translateHomepage(t);
+    }
     menuButton.setAttribute('aria-label', nav.classList.contains('open') ? t.menuClose : t.menuOpen);
   }
 

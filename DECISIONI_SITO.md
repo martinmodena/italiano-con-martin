@@ -50,6 +50,17 @@ Creare URL separati per le landing page principali:
 
 Questo aiuterebbe la SEO internazionale meglio di una sola homepage tradotta via JavaScript. Le pagine di grammatica e lettura possono restare in italiano, con brevi introduzioni nella lingua dello studente.
 
+### Decisione 2026-08-04: struttura SEO per lingua
+
+- La versione italiana resta la versione principale e usa gli URL esistenti: `/letture/`, `/grammatica/` e `/favole/`.
+- Le versioni internazionali usano pagine HTML statiche e URL separati, non una traduzione affidata soltanto a JavaScript.
+- I codici lingua seguono lo standard ISO per la SEO: spagnolo `/es/` (non `/sp/`), inglese `/en/`, francese `/fr/`, ceco `/cs/`, polacco `/pl/`, turco `/tr/`, tedesco `/de/`, giapponese `/ja/`.
+- Ogni lingua ha una home e tre hub: `readings`, `grammar` e `stories`; gli hub indirizzano ai materiali didattici italiani finche le singole lezioni non vengono tradotte.
+- Ogni pagina localizzata deve avere `lang`, `canonical`, `hreflang` reciproci, meta description, Open Graph e URL nella sitemap.
+- Il selettore lingua deve mostrare la bandiera e portare a un URL permanente della sezione corrispondente.
+
+Motivo: una pagina reale per lingua e per intento di ricerca e piu leggibile per utenti e motori di ricerca rispetto a contenuti cambiati soltanto nel browser.
+
 ## Regole didattiche
 
 - I livelli A1, A2 e B1 non usano il passato remoto.
@@ -65,3 +76,5 @@ Quando emerge una decisione importante in una conversazione, aggiungerla qui con
 - decisione;
 - motivo;
 - file o sezione del sito coinvolta.
+
+Regola operativa: ogni indicazione contenuta in un prompt che modifica il sito, la sua struttura, i contenuti, la lingua o la SEO deve essere registrata in questo file nella stessa sessione di lavoro.
