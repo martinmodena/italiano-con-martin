@@ -85,3 +85,10 @@ Regola operativa: ogni indicazione contenuta in un prompt che modifica il sito, 
 - Ogni pubblicazione deve verificare almeno la homepage e una pagina localizzata, per esempio `/es/`, su entrambi gli indirizzi.
 - Il dominio personalizzato e parte obbligatoria di ogni verifica SEO, navigazione, sitemap e deploy.
 - Il DNS punta correttamente a GitHub Pages, ma il dominio risulta ancora associato al vecchio repository `italiano-con-martin-astro`. Prima del prossimo deploy sul dominio va rimossa quell'associazione e va configurato `italianoconmartin.com` nelle impostazioni Pages del repository `italiano-con-martin`.
+
+### Decisione 2026-08-13: statistiche senza cookie banner
+
+- Le statistiche del sito usano Cloudflare Web Analytics con installazione manuale del beacon.
+- Non vengono aggiunti Google Analytics, pixel pubblicitari, cookie analytics o sistemi di profilazione.
+- Il beacon viene caricato centralmente da `script.js` e usa il sito Cloudflare associato a `italianoconmartin.com`.
+- L'obiettivo e raccogliere soltanto statistiche aggregate senza identificare o seguire i singoli visitatori e senza introdurre un cookie banner.
