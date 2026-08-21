@@ -87,6 +87,16 @@
     </image:image>
   </url>
   <url>
+    <loc>https://italianoconmartin.com/letture/la-meraviglia-del-dna.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://italianoconmartin.com/assets/reading-meraviglia-dna.webp</image:loc>
+      <image:caption>Una doppia elica di DNA si ripiega nel nucleo di una cellula</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://italianoconmartin.com/favole/</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>

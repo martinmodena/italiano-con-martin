@@ -92,3 +92,11 @@ Regola operativa: ogni indicazione contenuta in un prompt che modifica il sito, 
 - Non vengono aggiunti Google Analytics, pixel pubblicitari, cookie analytics o sistemi di profilazione.
 - Il beacon viene caricato centralmente da `script.js` e usa il sito Cloudflare associato a `italianoconmartin.com`.
 - L'obiettivo e raccogliere soltanto statistiche aggregate senza identificare o seguire i singoli visitatori e senza introdurre un cookie banner.
+
+### Decisione 2026-08-21: letture scientifiche estese e risposte salvate
+
+- Le nuove letture scientifiche possono essere lunghe il doppio o il triplo delle letture precedenti quando la complessita del tema richiede spiegazioni piu complete.
+- Ogni livello A1, A2, B1, B2 e C1 deve rispettare il proprio grado linguistico, pur mantenendo i concetti scientifici essenziali.
+- Ogni livello include almeno una domanda in italiano con un modulo che salva la risposta localmente nel browser, senza inviarla a servizi esterni.
+- Le letture scientifiche estese includono un PDF scaricabile e una sezione finale con riferimenti a riviste scientifiche.
+- La lettura "La meraviglia del DNA" corregge le analogie numeriche quando necessario e distingue sempre la capacita teorica del DNA dai risultati sperimentali di archiviazione.

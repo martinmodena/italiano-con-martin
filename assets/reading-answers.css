@@ -1,0 +1,96 @@
+.answer-form {
+  margin-top: 24px;
+  padding: 22px;
+  border: 1px solid #d7c4ae;
+  border-radius: 18px;
+  background: #fffaf4;
+}
+
+.answer-form h3 {
+  margin: 0 0 8px;
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.answer-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 850;
+}
+
+.answer-form textarea {
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  resize: vertical;
+  padding: 14px;
+  border: 1px solid #bda88f;
+  border-radius: 12px;
+  background: #fff;
+  color: #231d17;
+  font: inherit;
+  line-height: 1.55;
+}
+
+.answer-form textarea:focus {
+  outline: 3px solid rgba(28, 126, 101, .2);
+  border-color: #1c7e65;
+}
+
+.answer-form-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.answer-form button {
+  border: 0;
+  border-radius: 999px;
+  padding: 11px 18px;
+  background: #1c7e65;
+  color: #fff;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.answer-form button:hover {
+  background: #155f4d;
+}
+
+.answer-status {
+  min-height: 1.5em;
+  color: #42645a;
+  font-weight: 800;
+}
+
+.answer-note {
+  margin: 8px 0 0;
+  color: #6f6255;
+  font-size: .88rem;
+}
+
+.sources-card {
+  margin: 34px 0;
+  padding: clamp(24px, 5vw, 44px);
+  border: 1px solid #d7c4ae;
+  border-radius: 26px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(35, 29, 23, .04);
+}
+
+.sources-card h2 {
+  margin-top: 0;
+  font-family: Georgia, serif;
+}
+
+.sources-card li {
+  margin-bottom: 12px;
+  line-height: 1.55;
+}
+
+.sources-card a {
+  overflow-wrap: anywhere;
+}
